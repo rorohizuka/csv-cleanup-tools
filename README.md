@@ -101,4 +101,22 @@ Simple Bash script to detect empty lines in a file using grep.
 - Simple Bash + grep
 - Useful for CSV cleanup
 
+---
+
+# csv-column-extract.sh
+
+## Overview
+
+Extracts a specific column from a CSV file.
+
+### Usage
+
+```bash
+./csv-column-extract.sh sample.csv 2
+
+### Example Output
+
+age
+30
+25
 
