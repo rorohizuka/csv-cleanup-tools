@@ -120,3 +120,34 @@ age
 30
 25
 
+---
+
+# csv-dedupe.sh
+
+## Overview
+
+Remove duplicate lines from a CSV file.
+
+### Usage
+
+````bash 
+./csv-dedupe.sh sample.csv
+
+### Example In / Output
+
+Input:
+
+apple,100
+banana,200
+apple,100
+orange,300
+banana,200
+
+Output:
+
+apple,100
+banana,200
+orange,300
+
+
+
